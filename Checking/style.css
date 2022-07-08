@@ -1,0 +1,102 @@
+.ticket-information{
+    text-align: center;
+    color: white;
+    margin-top: 10vh;
+}
+.location, .ticket-head{
+    display: flex;
+    justify-content: center;
+}
+.day{
+    padding-left: 80px;
+}
+.to{
+    padding-left: 40px;
+}
+.head{
+    font-size: 32px;
+    font-variant: small-caps;
+}
+.ticket{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.ticket-head{
+    font-size: 28px;
+    color: wheat;
+}
+html{
+    background-color: #000;
+}
+.attr{
+    color: rgb(255, 82, 82);
+}
+.info{
+    color: rgb(109, 172, 236);
+    margin-bottom: 30px;
+}
+.ticket-information a{
+    font-size: 28px;
+    text-decoration: none;
+    color: blanchedalmond;
+    border: 2px solid blanchedalmond;
+    padding: 5px 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.ticket-information a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .ticket{
+        font-size: 18px;
+    }
+    .ticket-head{
+        font-size: 22px;
+    }
+}
+
+
+.ticket-information button{
+    font-size: 28px;
+    text-decoration: none;
+    color: blanchedalmond;
+    border: 2px solid blanchedalmond;
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.ticket-information button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.ticket-information form{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.ticket-information form input{
+    font-size: 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn | Railways</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="login-page">
+        <div class="container">
+            <div class="intro">
+                <h1 class="name">
+                    Railway Booking System
+                </h1>
+                <div class="about">
+                    <p id="text"></p>
+                    <p id="span">_</p>
+                </div>
+            </div>
+            <div class="empty"></div>
+            <div class="form-container">
+                <div class="form">
+                    <div class="envelop">
+                     <form class="login-form" action="./../Home/index.php" method="POST">
+                         <input name="phone" class="email form-control" type="text" placeholder="Email or Phone Number">
+                         <input name="password" class="password form-control" type="password" placeholder="Password" >
+                         <input type="hidden" name="login" value="1">
+                         <button type="submit" class="btn btn-primary btn-signin">Sign In</button>
+                         <br>
+                         <hr>
+                     </form>
+                     
+                    </div>
+                 </div>
+                 <h1 style="color: rgb(150, 150, 201);">OR</h1>
+                 <div class="form">
+                     <div class="envelop">
+                      <form class="login-form" action="./../Home/index.php" method="POST">
+                          <input class="email form-control" type="text" placeholder="First Name" name="fname">
+                          <input class="email form-control" type="text" placeholder="Last Name" name="lname">
+                          <input class="email form-control" type="text" placeholder="Email or Phone Number" name="phone">
+                          <input class="password form-control" type="password" placeholder="Password" name="password" onkeyup="check()" id="password">
+                          <input type="hidden" name="signUp" value="1">
+                          <button onclick="registered()" type="submit" class="btn btn-primary btn-signin">Sign Up</button>
+                          <hr>
+                      </form>
+                     </div>
+                     <div class="conditions">
+                        <h3 style="font-style: oblique;">It would be better if your password contains the following</h3>
+                        <ul>
+                            <li class="red lowercase">A <strong>lowercase</strong>  letter</li>
+                            <li class="red uppercase">A <strong>capital (uppercase)</strong> letter</li>
+                            <li class="red number">A <strong>number</strong></li>
+                            <li class="red eight">Minimum <strong>8 characters</strong></li>
+                        </ul>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

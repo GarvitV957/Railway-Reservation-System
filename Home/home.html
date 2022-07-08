@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <class="container">
+        <form onsubmit="myfunc()">
+            <div class="new-book">
+             <div class = "From"> From : <select name =  "from" placeholder="Select Station">
+                  <option value="Delhi" >Delhi</option>
+                  <option value="Kanpur">Kanpur</option>
+                  <option value="Madras">Madras</option>
+                  <option value="Mandi">Mandi</option>
+                  <option value="Calcutta" >Calcutta</option>
+                  <option value="Mumbai" >Mumbai</option>
+                  </select>
+              </div>
+              <div class = "To"> To :<select name=  "to">
+              <option value="Delhi" >Delhi</option>
+                  <option value="Kanpur">Kanpur</option>
+                  <option value="Madras">Madras</option>
+                  <option value="Mandi">Mandi</option>
+                  <option value="Calcutta" >Calcutta</option>
+                  <option value="Mumbai" >Mumbai</option>
+                  </select>
+                </div>
+              <div class = "Date"> Date :<input type="date" id = "dateInput"/>
+                    </div>
+              <input type="submit" value="Submit">
+            </div>
+        </form>
+        <div class="bookings">
+            <div class="tickets">
+                <div class="ticket-cover">
+                    <div class="ticket" id="1">
+                        <div class="ticket-head">
+                            <div class="happy">Happy Journey</div>
+                            <div class="date">Date: 27/7/34</div>
+                        </div>
+                        <div class="info">
+                            <div class="person-info">
+                                <div class="name">Amit Maindola</div>
+                                <div class="phone">Contact: 8373738329</div>
+                            </div>
+                            <div class="train-info">
+                                <div class="trian-name">
+                                    Train Name: Super Heavy Express
+                                </div>
+                                <div class="train-no">
+                                    Train No.: 73838263636
+                                </div>
+                            </div>
+                            <div class="day">
+                                Day: Monday
+                            </div>
+                            <div class="location">
+                                <div class="from">From: Indore</div>
+                                <div class="to">To: Delhi</div>
+                            </div>
+                            <div class="timing">
+                                <div class="dispatch">Dispatch time: 18:40:00</div>
+                                <div class="duration">Duration: 18 hours</div>
+                            </div>
+                            <div class="seat-info">
+                                <div class="seat-no">
+                                    seat: 78
+                                </div>
+                                <div class="price">Ticket Price: 4849</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button onclick="printTicket(1)">Download Ticket</button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<form action=\"index.php\"><input type=\"hidden\" value=\"3\" name=\"refresh\"><input type=\"hidden\" name=\"bookingId\" value=\"\"><button type=\"submit\">Cancel</button></form>

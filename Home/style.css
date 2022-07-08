@@ -1,0 +1,290 @@
+body, html{
+    margin: 0px;
+}
+
+/* Ticket Section */
+.bookings{
+    background-color:transparent;
+    /* height: 100vh; */
+    margin: 0px;
+}
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image:radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./bg-home.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.timing, .seat-info, .location, .train-info, .person-info, .ticket-head,.day,.img-cover, .book-now{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ticket-head{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #009;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -ms-border-radius: 20px 20px 0px 0px;
+    -o-border-radius: 20px 20px 0px 0px;
+}
+.ticket-cover{
+    width: 525px;
+    padding: 20px;
+}
+.ticket{
+    border: 2px solid #009;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #fee;
+}
+.ticket-cover button{
+    margin-top: 10px;
+    border: 2px solid green;
+    padding: 5px 10px;
+    background-color: white;
+    color: green;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.ticket-cover button:hover{
+    background-color: green;
+    color: white;
+}
+.tickets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.verified-content{
+    display: flex;
+}
+.img-cover{
+    margin-top: 10px;
+}
+
+.instruc-head{
+    font-size: 20px;
+}
+.day-element{
+    margin: 0;
+}
+.attr{
+    color: rgb(68, 11, 11);
+}
+
+.bookings-head{
+    text-align: center;
+    color: white;
+}
+/* Trial */
+.book{
+    background-color:transparent;
+    max-width: 500px;
+    width: 90vw;
+    padding: 25px 50px 75px 100px;
+    display: inline-block;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    color: white;
+}
+.container{
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Book Now Page */
+.book-now{
+    margin-top: 20px;
+}
+.list-box .ticket{
+    width: 600px;
+    margin: 10px;
+}
+.book-now button{
+    border: 2px solid green;
+    padding: 5px 10px;
+    background-color: white;
+    color: green;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+}
+.book-now button:hover{
+    background-color: green;
+    color: white;
+}
+.list-box h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .From, .To , .Date ,.submit{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+  }
+  form p{
+    width: 115px;
+    margin-top: 5px;
+  }
+  form select, form input{
+    width: 300px;
+  }
+  .btn-box{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .btn-box button{
+    font-size: 20px;
+    border: 2px solid white;
+    background-color:transparent;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+  .btn-box button:hover{
+      background-color: wheat;
+      color: rgb(0, 72, 0);
+      border-color:rgb(0, 72, 0);
+  }
+  form div{
+    margin: 5px 10px;
+  }
+  #dateInput{
+    width: 290px;
+  }
+  .Day{
+    display: flex;
+    flex-direction: row;
+    height: 26px;
+  }
+  #day{
+    width: 290px;
+  }
+
+  h1{
+      color: white;
+  }
+  .list-box{
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin: 0px;
+  }
+
+  .book-cover{
+  }
+
+  /* Navbar CSS */
+  nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: white;
+      background-color: rgba(0,0,0,0.5);
+      /* font-size: 24px; */
+      position: fixed;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      opacity: 1;
+  }
+
+  nav div{
+      margin-left: 100px;
+      font-size: 30px;
+      height: 50px;
+      padding-top: 10px;
+}
+  nav a{
+      margin-right: 100px;
+      text-decoration: none;
+      padding: 5px 10px;
+      color: white;
+      font-size: 16px;
+      border: 2px solid white;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+}
+ nav a:hover{
+    background-color: black;     
+ }
+ nav i{
+     font-size: larger;
+ }
+
+ .profile{
+     background-color: rgb(230, 230, 230);
+     font-size: 24px;
+     max-width: 500px;
+     position: fixed;
+     top: 70px;
+     right: 200px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     opacity: 0;
+}
+ .profile-box{
+    margin: 30px;
+ }
+ .profile-box div{
+    margin-bottom: 5px;
+ }
+
+ .bookings{
+     border-top: 1px das #fee;
+ }
