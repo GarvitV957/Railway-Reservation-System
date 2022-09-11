@@ -14,3 +14,8 @@ Project is created with:
 * Javascript
 * PHP
 * MySQL
+
+![Screenshot (257)](https://user-images.githubusercontent.com/79037725/189519249-5e0512ef-f4c9-46af-9ff5-d133d641d62a.png)
+
+![Screenshot (258)](https://user-images.githubusercontent.com/79037725/189519304-8b4b0066-f240-40d4-a6e3-7f0036dabc50.png)
+
