@@ -15,7 +15,13 @@ Project is created with:
 * PHP
 * MySQL
 
-![Screenshot (257)](https://user-images.githubusercontent.com/79037725/189519249-5e0512ef-f4c9-46af-9ff5-d133d641d62a.png)
+## Images of home page and first sign in page
+<img src="https://user-images.githubusercontent.com/79037725/189519249-5e0512ef-f4c9-46af-9ff5-d133d641d62a.png" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/79037725/189519304-8b4b0066-f240-40d4-a6e3-7f0036dabc50.png" width="400" height="400">
 
-![Screenshot (258)](https://user-images.githubusercontent.com/79037725/189519304-8b4b0066-f240-40d4-a6e3-7f0036dabc50.png)
+## Page after QR scan (checking)
+<img src="https://user-images.githubusercontent.com/79037725/189911437-788ba782-6026-4b8f-bbae-69e48d52a423.png" width="300" height="400">
+
+## Pdf of ticket
+<img src="https://user-images.githubusercontent.com/79037725/189911593-045defb1-8b88-43a9-b623-2c596067084f.png" width="300" height="400">
 
